@@ -1,0 +1,26 @@
+body{
+
+}
+
+.container{
+    max-width: 1376px;
+    padding: 0 32px;
+    margin: 0 auto;
+    outline: solid blue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.hero{
+background: linear-gradient(90deg, #1C1D20 49.69%, #69292D 67.71%, #ED3B44 99.91%);
+backdrop-filter: blur(2px);
+}
