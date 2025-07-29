@@ -1,26 +1,33 @@
-body{
-
+body {
 }
 
-.container{
-    max-width: 1376px;
-    padding: 0 32px;
-    margin: 0 auto;
-    outline: solid blue;
+.container {
+  max-width: 1376px;
+  padding: 0 32px;
+  margin: 0 auto;
+  outline: solid blue;
+  @media screen and (min-width: 320px) {
+    max-width: 320px;
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+  }
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
-
-
-
-
-
-
-.hero{
-background: linear-gradient(90deg, #1C1D20 49.69%, #69292D 67.71%, #ED3B44 99.91%);
-backdrop-filter: blur(2px);
+.hero {
+  background: linear-gradient(
+    90deg,
+    #1c1d20 49.69%,
+    #69292d 67.71%,
+    #ed3b44 99.91%
+  );
+  backdrop-filter: blur(2px);
 }
