@@ -6,3 +6,12 @@ headers.forEach(header => {
     item.classList.toggle("active");
   });
 });
+
+const accordionItems = document.querySelectorAll('.faq__item');
+
+accordionItems.forEach(item => {
+  const header = item.querySelector('.faq__trigger');
+  header.addEventListener('click', () => {
+    item.classList.toggle('active');
+  });
+});
